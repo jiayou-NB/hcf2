@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>背景图页面</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+             background-image: url('https://jclive.oss-cn-hangzhou.aliyuncs.com/HCFimg/339cd112e045f6ea73d507b496b1e62.jpg'); /* 替换为你的背景图链接 */
+            background-size: cover;
+            background-position: center;
+            color: white; /* 根据背景图调整文本颜色以确保可读性 */
+            text-align: center;
+            font-family: Arial, sans-serif;
+        }
+        a {
+            text-decoration: none;
+            color: white; /* 同样根据背景图调整链接颜色 */
+            padding: 15px 30px;
+            border: 2px solid white; /* 边框颜色可根据背景图调整 */
+            border-radius: 10px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        .iframe-container {
+          width: 500px;  /* 设置你想要的宽度 */
+          height: 100%; /* 设置你想要的高度 */
+          border: none;  /* 可选，移除边框 */
+        }
+         
+        .iframe-container iframe {
+          width: 80%;
+          height: 100%;
+          border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="iframe-container">
+      <iframe src="https://m.quanmaigo.com/v1/?opco=jcjt#/iframePage?name=home&path=%2F&query=%7B%7D"></iframe>
+    </div>
+</body>
+</html>
