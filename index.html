@@ -9,10 +9,11 @@
             margin: 0;
             padding: 0;
             height: 100%;
+			width:100%;
             display: flex;
             justify-content: center;
             align-items: center;
-            background-image: url('https://jclive.oss-cn-hangzhou.aliyuncs.com/HCFimg/339cd112e045f6ea73d507b496b1e62.jpg'); 
+            background-image: url('https://jclive.oss-cn-hangzhou.aliyuncs.com/HCFimg/bgi.jpg'); 
 			/* background-color: black; */
             background-size: cover;
             background-position: center;
@@ -30,9 +31,10 @@
         }
         .iframe-container {
           width: 500px;  /* 设置你想要的宽度 */
-          height: 100%; /* 设置你想要的高度 */
+          height: 80%; /* 设置你想要的高度 */
           border: none;  /* 可选，移除边框 */
-		  margin-left: 0px;
+		  margin-left: 1000px;
+		  border-radius: 50px;
         }
          
         .iframe-container iframe {
@@ -40,18 +42,18 @@
           height: 100%;
           border: none;
         }
-		.pdf{
+		/* .pdf{
 			margin-left: 100px;
 			margin-top: -60px;
-		}
+		} */
     </style>
 </head>
 <body>
     <div class="iframe-container">
       <iframe src="https://m.quanmaigo.com/v1/?opco=jcjt#/iframePage?name=home&path=%2F&query=%7B%7D"></iframe>
     </div>
-	<div class="pdf">
+	<!-- <div class="pdf">
 	<embed src="./img/hcfpdf.pdf" type="application/pdf" width="1000px" height="1200px" />
-	</div>
+	</div> -->
 </body>
 </html>
